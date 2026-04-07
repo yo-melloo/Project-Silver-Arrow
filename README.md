@@ -6,7 +6,7 @@
 
 ## 🏛️ Arquitetura: Argentum Core
 
-O coração do projeto é o **Argentum**, um orquestrador em Python que utiliza comunicação entre processos (IPC) via [[docs/argentum_memory_mappings.md|Shared Memory]] para extrair dados brutos do simulador com overhead quase nulo.
+O coração do projeto é o **Argentum**, um orquestrador em Python que utiliza comunicação entre processos (IPC) via [Shared Memory](docs/argentum_memory_mappings.md) para extrair dados brutos do simulador com overhead quase nulo.
 
 ### 📊 Fluxo de Dados (High-Level)
 
@@ -25,8 +25,8 @@ graph TD
 ```
 
 ### 🚀 Principais Funcionalidades
-- **Telemetria de Baixa Latência:** Extração em tempo real via [[docs/Shared_Memory_IPC.md|Shared Memory IPC]].
-- **Arquitetura Bridge:** Distribuição de dados via [[docs/protocol_spec.md|WebSockets JSON]].
+- **Telemetria de Baixa Latência:** Extração em tempo real via [Shared Memory IPC](docs/argentum_memory_mappings.md).
+- **Arquitetura Bridge:** Distribuição de dados via WebSockets JSON.
 - **Mascote Argentum Buddy:** Feedback visual no terminal de comando.
 - **Ecossistema OpenRGB:** Sincronismo com hardware de PC via SDK.
 

@@ -14,7 +14,7 @@
 1. No diretório do projeto, localize `config.h.example`.
 2. Faça uma cópia e renomeie para `config.h`.
 3. Edite o `config.h` com seu **SSID**, **Senha** e o `BRIDGE_IP` do seu computador.
-   - *Dica:* Veja [[docs/argentum_memory_mappings.md|Como encontrar o IP do Bridge]].
+   - *Dica:* Veja [Como encontrar o IP do Bridge](../../docs/argentum_memory_mappings.md).
 
 ### Passo 3: Upload 🔌
 1. Conecte o ESP32 via USB

@@ -1,6 +1,6 @@
 # 🌐 Argentum Silver Arrow - Dashboard Web (Next.js)
 
-Interface de visualização em tempo real para telemetria de alta fidelidade. O dashboard conecta-se ao [[scripts_python/argentum_bridge.py|Argentum Bridge]] via WebSockets para exibir dados processados do simulador.
+Interface de visualização em tempo real para telemetria de alta fidelidade. O dashboard conecta-se ao [Argentum Bridge](../scripts_python/argentum_bridge.py) via WebSockets para exibir dados processados do simulador.
 
 ## 🚀 Como Iniciar (Desenvolvimento)
 
@@ -37,4 +37,4 @@ Interface de visualização em tempo real para telemetria de alta fidelidade. O 
 - **Ícones:** Lucide React
 
 ---
-Desenvolvido como parte da **Fase 3** do Project Silver Arrow. Veja a [[README.md|Estrutura Geral]] para mais detalhes.
+Desenvolvido como parte da **Fase 3** do Project Silver Arrow. Veja a [Estrutura Geral](../README.md) para mais detalhes.
