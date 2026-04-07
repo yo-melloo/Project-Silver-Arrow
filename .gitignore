@@ -1,0 +1,80 @@
+# --- Project Silver Arrow: Git Ignore ---
+
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv
+venv/
+venv.bak/
+ENV/
+*.log
+scripts_python/debug_ac_memory_*.txt
+
+# 📡 Firmware (ESP32 / PlatformIO / Arduino)
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+fp-info-cache
+build/
+bin/
+*.elf
+*.bin
+*.hex
+sdkconfig
+sdkconfig.old
+config.h
+
+# 💻 IDEs & Editor
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# 🛡️ Segurança (Obrigatório)
+.env
+.env.local
+.env.*.local
+secret.txt
+auth.json
+
+# 🌐 Web / Node.js
+node_modules/
+.next/
+out/
+build/
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# 🖥️ System
+Thumbs.db
+desktop.ini
+.DS_Store
+*.exe
+
+# 📊 Telemetria Temporária
+docs/debug_*.txt
+scripts_python/debug_*.txt
