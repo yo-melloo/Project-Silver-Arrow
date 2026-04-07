@@ -34,9 +34,9 @@ Foco em criar interfaces de alto desempenho, reativas e com excelente experiênc
 ---
 
 ### 📚 Recursos Recomendados
-1. **Nextjs.org/Learn**: O curso oficial da Vercel é fenomenal.
-2. **The Joy of React** (Josh Comeau): Ótimo para entender o React a fundo.
-3. **TailwindCSS Docs**: A bíblia do design utility-first.
+1. **[Nextjs.org/Learn](https://nextjs.org/learn)**: O curso oficial da Vercel é fenomenal.
+2. **[The Joy of React](https://www.joyofreact.com/)** (Josh Comeau): Ótimo para entender o React a fundo.
+3. **[TailwindCSS Docs](https://v2.tailwindcss.com/docs)**: A bíblia do design utility-first.
 
 > [!TIP]
 > Em telemetria de alta velocidade, menos renderizações é igual a mais performance. Use o `React DevTools` para monitorar se componentes estão renderizando sem necessidade!

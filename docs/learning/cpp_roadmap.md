@@ -37,8 +37,8 @@ Este guia foca nos alicerces sólidos de C++ necessários para dominar sistemas 
 ---
 
 ### 📚 Recursos Recomendados
-1. **LearnCpp.com**: O melhor recurso gratuito do mundo para C++.
-2. **Hacking C++**: Visualizações gráficas fantásticas de conceitos complexos.
+1. **[LearnCpp.com](https://learncpp.com/)**: O melhor recurso gratuito do mundo para C++.
+2. **[Hacking C++](https://hackingcpp.com/)**: Visualizações gráficas fantásticas de conceitos complexos.
 3. **The C++ Programming Language** (Bjarne Stroustrup): A bíblia do criador da linguagem.
 
 > [!TIP]

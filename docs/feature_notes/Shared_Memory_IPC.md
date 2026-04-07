@@ -40,8 +40,8 @@ rpm = struct.unpack("i", shm.read(4))[0]
 -   `utf-16`: Codificação de texto - Usado para o nome do carro e piloto.
 
 ## 🔗 Referências Internas
-- [[argentum_memory_mappings.md|Mapas de Memória Detalhados]]
-- [[protocol_spec.md|Protocolo de Sincronismo (Fase 2)]]
+- [[argentum_memory_mappings|Mapas de Memória Detalhados]]
+- [[protocol_spec|Protocolo de Sincronismo (Fase 2)]]
 
 ---
 *Mentoria: @mentor (Obsidian Vault Ready)*
