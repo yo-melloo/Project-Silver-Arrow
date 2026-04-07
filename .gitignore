@@ -78,3 +78,12 @@ desktop.ini
 # 📊 Telemetria Temporária
 docs/debug_*.txt
 scripts_python/debug_*.txt
+
+# 📓 Obsidian / Documentação
+docs/.obsidian/*
+!docs/.obsidian/plugins/
+!docs/.obsidian/themes/
+!docs/.obsidian/plugins/**
+!docs/.obsidian/themes/**
+docs/.obsidian/workspace
+docs/.obsidian/workspace.json
