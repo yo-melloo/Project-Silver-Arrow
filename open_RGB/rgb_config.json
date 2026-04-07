@@ -1,0 +1,27 @@
+{
+  "openrgb_host": "localhost",
+  "openrgb_port": 6742,
+  "shift_light_thresholds": {
+    "idle": 2000,
+    "warning": 6000,
+    "critical": 8000,
+    "redline": 9000
+  },
+  "color_scheme": {
+    "idle": [0, 255, 0],
+    "warning": [255, 255, 0],
+    "critical": [255, 128, 0],
+    "redline": [255, 0, 0],
+    "off": [0, 0, 0]
+  },
+  "enabled_devices": [],
+  "_comment_devices": "Use empty array [] to apply effect to ALL devices. Or list specific device names to apply only to those.",
+  "animations": {
+    "enabled": true,
+    "pulse_frequency": 2.0,
+    "pulse_min_brightness": 0.2,
+    "rising_threshold": 500.0,
+    "rising_smoothing": 5,
+    "smooth_transition_frames": 10
+  }
+}
