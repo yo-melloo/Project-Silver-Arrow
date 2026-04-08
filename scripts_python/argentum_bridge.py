@@ -1,3 +1,9 @@
+"""
+Utilitário de conexão WebSocket
+STATUS: Funcional, em incrementação de novas informações
+Objetivo: Mapear e servir dados do jogo para clientes (dashboard e ESP32/Arduino)
+"""
+
 from fastapi import FastAPI, WebSocket
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn

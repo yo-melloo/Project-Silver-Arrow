@@ -1,3 +1,8 @@
+"""
+Tentativa de encontrar o offset de tempo de sessão
+STATUS: NÃO ENCONTRADO
+"""
+
 import mmap
 import struct
 import time
