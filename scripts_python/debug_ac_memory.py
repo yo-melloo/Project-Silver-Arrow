@@ -1,3 +1,8 @@
+"""
+Essencial que retorna o mapeamento de memória do AC
+STATUS: Encontrado
+"""
+
 import mmap
 import struct
 import os

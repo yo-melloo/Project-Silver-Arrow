@@ -1,6 +1,6 @@
 # 📡 Especificação do Protocolo - Argentum Bridge
 
-Documentação técnica do fluxo de dados via WebSockets entre o [[scripts_python/argentum_bridge.py|Argentum Bridge]] e seus clientes.
+Documentação técnica do fluxo de dados via WebSockets entre o **Argentum Bridge** e seus clientes.
 
 ## 🏛️ Visão Geral
 O protocolo utiliza WebSockets (ws://) para transmissão de objetos JSON em tempo real (60 FPS / 16.6ms). Existem dois perfis de entrega baseados no parâmetro de conexão `?client=`.
