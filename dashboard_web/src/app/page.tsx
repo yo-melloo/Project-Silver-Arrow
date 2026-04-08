@@ -48,7 +48,7 @@ export default function Dashboard() {
       }
     };
 
-    requestWakeLock();
+    requestWakeLock(); // FIXME [ ]: No meu celular, não está chamando a função, então a tela apaga.
 
     const handleVisibilityChange = () => {
       if (wakeLock !== null && document.visibilityState === "visible") {
@@ -57,6 +57,7 @@ export default function Dashboard() {
     };
 
     document.addEventListener("visibilitychange", handleVisibilityChange);
+    // QUESTION [ ]: Este visibilitychange é adaptado para navegadores mobile?
 
     return () => {
       socket.close();
@@ -69,7 +70,7 @@ export default function Dashboard() {
     return (
       <div className="flex flex-col h-screen items-center justify-center bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-slate-400 font-mono p-4 text-center">
         <div className="mb-4 text-cyan-400 animate-pulse text-3xl font-black drop-shadow-lg">
-          ⚡ ARGENTUM BRIDGE
+          ⚡ ARGENTUM DASHBOARD
         </div>
         <div className="text-sm mb-4 text-slate-300">
           {connected ? "AGUARDANDO DADOS..." : "CONECTANDO..."}
