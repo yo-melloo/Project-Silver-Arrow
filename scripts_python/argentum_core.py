@@ -64,7 +64,7 @@ class AssettoCorsaProvider:
                 self.max_rpm = 10000
         except:
             self.pilot_name = "AC_PILOT"
-            self.car_model = "UNKNOWN"
+            self.car_model = "AC_CAR"
             self.max_rpm = 10000
 
     def fetch(self):
@@ -79,10 +79,10 @@ class AssettoCorsaProvider:
             # Offset 16: gear(i), rpms(i)
             # Offset 24: steerAngle(f), speedKmh(f)
             # Offset 32: velocity[3](f), accG[3](f)
-            # Offset 328: clutch(f) - clutch está no final da estrutura!
+            # Offset 364: clutch(f) - clutch está no final da estrutura!
             
             self.physics_map.seek(0)
-            buffer = self.physics_map.read(340)  # Lendo bytes suficientes
+            buffer = self.physics_map.read(400)  # Lendo bytes suficientes
             
             packet = struct.unpack_from("i", buffer, 0)[0]
             gas = struct.unpack_from("f", buffer, 4)[0]
@@ -91,14 +91,14 @@ class AssettoCorsaProvider:
             rpm = struct.unpack_from("i", buffer, 20)[0]
             steer = struct.unpack_from("f", buffer, 24)[0]
             speed = struct.unpack_from("f", buffer, 28)[0]
-            clutch = struct.unpack_from("f", buffer, 328)[0]  # Clutch no offset 328
+            clutch = struct.unpack_from("f", buffer, 364)[0]  # Clutch no offset 364
 
             # Tratamento de marchas: 0=R, 1=N, 2=1st, etc
             m_gear = gear_raw - 1
             gear_str = "R" if m_gear == -1 else ("N" if m_gear == 0 else str(m_gear))
 
             return {
-                "source": "SIMULATOR (AC)",
+                "source": "Asseto Corsa",
                 "pilot": self.pilot_name,
                 "car": self.car_model,
                 "packet": packet,
